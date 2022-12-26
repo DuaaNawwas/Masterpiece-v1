@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Merriweather", serif;
+	background-color: #eeecea;
+	position: relative;
+	width: 100%;
+	/* overflow-x: hidden; */
+}
+
+/* Tabs Styling for profile */
+button[aria-selected="true"] {
+	color: #6a2e0a;
+	border-color: #6a2e0a;
+}
+
+/* Tabs Styling for Menu */
+li[aria-selected="true"] {
+	color: #6a2e0a;
+	border: none;
+	border-bottom: 2px solid;
+	border-color: #6a2e0a;
+	background-color: transparent;
+
+	padding-bottom: 12px;
+}
+li.react-tabs__tab:focus:after {
+	background-color: transparent;
+}
+
+li[aria-selected="false"] {
+	color: rgb(107 114 128);
+	border: none;
+	border-bottom: 2px solid;
+	border-color: rgb(229 231 235);
+	background-color: transparent;
+
+	padding-bottom: 12px;
+}
+li[aria-selected="false"]:hover {
+	color: rgb(75 85 99);
+	border: none;
+	border-bottom: 2px solid;
+	border-color: rgb(209 213 219);
+	background-color: transparent;
+}
+
+/* Active nav item styling */
+#navbar .active {
+	border-bottom: 2px solid #6a2e0a;
+	padding-bottom: 2px;
+	/* text-shadow: 1px 1px 1px #6a2e0a; */
+	font-weight: bold;
+	letter-spacing: normal;
+}
+
+/* Scrollbar styling for recipe modal */
+@layer utilities {
+	.scrollbar::-webkit-scrollbar {
+		width: 10px;
+		height: 20px;
+	}
+
+	.scrollbar::-webkit-scrollbar-track {
+		border-radius: 100vh;
+		background: #f7f4ed;
+	}
+
+	.scrollbar::-webkit-scrollbar-thumb {
+		background: #bb4314;
+		border-radius: 100vh;
+		border: 3px solid #f6f7ed;
+	}
+
+	.scrollbar::-webkit-scrollbar-thumb:hover {
+		background: rgba(187, 67, 20, 0.7);
+	}
+}
+
+/* Selected text styling */
+::selection {
+	color: white;
+	background: #6a2f0a9b;
+}

@@ -38,3 +38,11 @@ Follow these steps to run the project:
 ### Links
 
 [Wireframe and Mockup](https://www.figma.com/file/aIsdni4USpLVvkQJzM5LM9/EasyMeals-duaa?node-id=0%3A1&t=1nmm1lLlZYvdTQqc-0)
+
+[Documentation](https://docs.google.com/document/d/18qCiYQKobjvo825TkT3Owb1yawRy7M8Y3TDKn80hFB8/edit?usp=sharing)
+
+[Trello Board](https://trello.com/b/otFOJLf8/masterpiece)
+
+[presentation](https://www.canva.com/design/DAFVyxXMUKU/dMUAVq84xIN5N0ZKwI24WQ/view?utm_content=DAFVyxXMUKU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+[Project brief](https://docs.google.com/document/d/12aaAtmlhyaK9nqci9AACssSAZJ0NWkeXcQzJZgQ5_ZM/edit?usp=sharing)
